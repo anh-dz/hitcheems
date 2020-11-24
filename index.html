@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Hit Cheems</title>
-<link rel="icon" href="cheems.png">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+  <head>
+    <title>Hit Cheems</title>
+    <link rel="icon" href="cheems.png">
+  </head>
 <body>
   <center><img id="example" onclick="changeImage()" src="hitcheems.png">
-    <p>
       <details>
       <summary>Please, Cheems need u read this =((</summary>
       <p>Please, don't hit me! It's hurt!</p>
@@ -15,19 +13,7 @@
     </details>
     <p><b><a href="http://iz.ag/minkalexvina" target="_blank">About me</a></b></p>
   </center>
-<script type="text/javascript">
-  function changeImage() {
-    element=document.getElementById('example');
-    element.src="hitcheems2.png";
-    var audio = new Audio('sound.mp3');
-    audio.play();
-    setTimeout(return_2, 100)
-}
-  function return_2() {
-    element=document.getElementById('example');
-    element.src="hitcheems.png";
-}
-</script>
+<script type="text/javascript" src="main.js"></script>
 </body>
-<audio src="cheems.mp3" autoplay></audio>
+  <audio src="cheems.mp3" autoplay></audio>
 </html>
